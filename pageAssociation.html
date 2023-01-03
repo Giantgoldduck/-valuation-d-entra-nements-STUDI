@@ -9,47 +9,49 @@
     <title>Patchou</title>
 </head>
 <body>
-<header>
-    <!---padding for nav-link in CSS-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+  <header>
+    <!---padding nav-link on CSS-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
         <a class="navbar-brand" href="pageAssociation.html">Patchou</a>
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-info" href="pagePublicitaire.html">Événements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Adoption</a>
-                </li>
-            </ul>
-        <ul class="navbar-nav justify-content-md-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nous soutenir</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        </div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-info" href="pagePublicitaire.html">Événements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Adoption</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-sm-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nous soutenir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+      </div>
     </nav>
 
     <div class="jumbotron jumbotron-fluid">
-        
       <div class="container">
         <h1 class="display-4">Bienvenue chez Patchou !</h1>
         <p class="lead">Patchou est une association indépendante qui s'occupe de trouver des familles aimantes pour les animaux abandonnés.</p>
       </div>
       <img src="cat.png" class="img-fluid">
-</header>
-
+    </div>
+  </header>
 
 <!---box shadow in CSS-->
-<main class="container-fluid d-flex flex-wrap justify-content-center">   
+<main>
+  <h1 class="my-5 mx-5"><strong>Adopte un chat :</strong></h1>
+
+  <div class="container-fluid d-flex flex-wrap justify-content-center">   
     <article class="card m-5" style="width: 18rem;">
-        <a href="#"><img src="occo3.png" class="card-img-top"></a>
+      <a href="#"><img src="occo3.png" class="card-img-top"></a>
         <div class="card-body">
           <h5 class="card-title">Occo</h5>
           <p class="card-text">Occo est un chat mâle né le 01/06/2018. Occo a été trouvé par les gendarmes dans l’appartement  de son propriétaire décédé.
@@ -59,12 +61,12 @@
             Occo a mis du temps à s’habituer à  la vie en grande chatterie.
             Il commence à accepter les caresses et se montre affectueux.
             Il a du mal à cohabiter avec les autres chats et sera plus heureux seul dans sa famille. </p>
-          <a href="#" class="btn btn-secondary">Prendre Contact</a>
+            <a href="#" class="btn btn-secondary">Prendre Contact</a>
         </div>
     </article>
 
     <article class="card m-5" style="width: 18rem;">
-        <a href="#"><img src="i-siam1a.png" class="card-img-top"></a>
+      <a href="#"><img src="i-siam1a.png" class="card-img-top"></a>
         <div class="card-body">
           <h5 class="card-title">I'Siam</h5>
           <p class="card-text">Siam est une gros chat mâle né le 01/02/2013. C'est un siamois qui a surement été abandonné devant le refuge il y a quelques années.
@@ -72,28 +74,29 @@
             Nous avons pu alors le castrer et le vacciner.
             Il est devenu extrêmement câlin et proche de l'homme, il a été habitué à être porté à bras et manipulé pour les soins. La caisse de transport est difficile pour lui donc il miaule beaucoup mais n'en est pas rancunier. Très gourmand aussi.
             </p>
-          <a href="#" class="btn btn-secondary">Prendre Contact</a>
+            <a href="#" class="btn btn-secondary">Prendre Contact</a>
         </div>
     </article>
 
     <article class="card m-5" style="width: 18rem;">
-        <a href="#"><img src="nanji1a.png" class="card-img-top"></a>
+      <a href="#"><img src="nanji1a.png" class="card-img-top"></a>
         <div class="card-body">
           <h5 class="card-title">Nanji</h5>
           <p class="card-text">Nanji est un chat mâle né le 01/01/2017. Il a été abandonné devant le refuge en 2017.
             Il est resté inapprochable jusqu’à récemment où il recherche la caresse pendant la distribution de friandises.
             Dans un environnement calme et avec beaucoup de patience, Nanji pourra progresser et devenir un chat affectueux.
             </p>
-          <a href="#" class="btn btn-secondary">Prendre Contact</a>
+            <a href="#" class="btn btn-secondary">Prendre Contact</a>
         </div>
-    </article>
+    </article>    
+  </div>
 </main>
 
 <footer class="bg-light py-3 mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5>Liens</h5>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Liens</h5>
           <ul class="list-unstyled">
             <li><a href="#">Accueil</a></li>
             <li><a href="pagePublicitaire.html">Événements</a></li>
@@ -101,18 +104,18 @@
             <li><a href="#">Nous soutenir</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </div>
-        <div class="col-md-4">
-          <h5>Contact</h5>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact</h5>
           <ul class="list-unstyled">
             <li>Téléphone: 06-12-34-56-78</li>
             <li>Email: association-fictive@animaux.com</li>
             <li>Adresse: 17 rue une bonne note, Svp, Figeac</li>
           </ul>
-        </div>
       </div>
-      <p class="text-center mt-3">Copyright &copy; 2020 Association pour animaux</p>
     </div>
+      <p class="text-center mt-3">Copyright &copy; 2020 Association pour animaux</p>
+  </div>
   </footer>
   
 </body>

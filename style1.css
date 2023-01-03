@@ -1,20 +1,17 @@
 
-/**page Association**/
+                        /**page Association**/
 
-/********************Header -> nav-link padding*******************************/
+
+
+/********************   Header     nav-link padding   *******************************/
 
 header .navbar .container-fluid .nav-item .nav-link {
     padding-left: 60px;
 }
 
 
-/************Main -> card style*******************/
+/************   Main     card style   *******************/
 
 .container-fluid .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-/******************************************************************************************************************************************/
-
-
-/**page Publicitaire**/

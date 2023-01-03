@@ -1,9 +1,15 @@
 
-/**page Publicitaire**/
+                    /**page Publicitaire**/
 
-/********************Header -> nav-link padding*******************************/
+
+/********************    Header     nav-link padding     *******************************/
 
 header .navbar .container-fluid .nav-item .nav-link {
     padding-left: 60px;
 }
 
+/************   Main     card margin  *******************/
+
+.card {
+    margin: 5em 0;
+  }
