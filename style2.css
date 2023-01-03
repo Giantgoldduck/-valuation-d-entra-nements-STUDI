@@ -1,0 +1,9 @@
+
+/**page Publicitaire**/
+
+/********************Header -> nav-link padding*******************************/
+
+header .navbar .container-fluid .nav-item .nav-link {
+    padding-left: 60px;
+}
+
